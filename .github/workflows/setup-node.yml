@@ -12,7 +12,7 @@ jobs:
 
       - name: Get Volta Node Version
         id: volta_version # A unique ID for reference later in other steps/jobs.
-        run: echo "::set-output name=node_version::$(jq -r .volta.node package.json)"
+        run: echo "node_version=$(jq -r .volta.node package.json)" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
