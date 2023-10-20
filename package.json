@@ -35,6 +35,7 @@
     "*.ts": "eslint --color --fix --max-warnings=0"
   },
   "volta": {
-    "node": "18.18.0"
+    "node": "18.18.0",
+    "npm": "10.2.1"
   }
 }
