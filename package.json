@@ -16,7 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^30.0.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "esbuild": "0.25.12",
@@ -35,7 +35,7 @@
     "*.ts": "eslint --color --fix --max-warnings=0"
   },
   "volta": {
-    "node": "22.21.1",
+    "node": "24.11.0",
     "npm": "11.6.2"
   }
 }
